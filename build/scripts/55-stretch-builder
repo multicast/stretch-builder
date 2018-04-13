@@ -39,5 +39,6 @@ apt-get install -y \
  python-recommonmark \
  python-sphinx \
  texlive-fonts-recommended \
+ texlive-generic-extra \
  texlive-lang-english \
  texlive-latex3 \
