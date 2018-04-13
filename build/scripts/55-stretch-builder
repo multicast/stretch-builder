@@ -36,6 +36,7 @@ chmod +x /usr/bin/docker-machine
 
 apt-get install -y \
  build-essential \
+ python-recommonmark \
  python-sphinx \
  texlive-fonts-recommended \
  texlive-lang-english \
