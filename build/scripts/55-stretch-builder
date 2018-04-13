@@ -41,4 +41,5 @@ apt-get install -y \
  texlive-fonts-recommended \
  texlive-generic-extra \
  texlive-lang-english \
+ texlive-latex-extra \
  texlive-latex3 \
