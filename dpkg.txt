@@ -99,9 +99,9 @@ ii  libcap-ng0:amd64              0.7.7-3+b1                     amd64        An
 ii  libcc1-0:amd64                6.3.0-18+deb9u1                amd64        GCC cc1 plugin for GDB
 ii  libcilkrts5:amd64             6.3.0-18+deb9u1                amd64        Intel Cilk Plus language extensions (runtime)
 ii  libcomerr2:amd64              1.43.4-2                       amd64        common error description library
-ii  libcups2:amd64                2.2.1-8+deb9u1                 amd64        Common UNIX Printing System(tm) - Core library
+ii  libcups2:amd64                2.2.1-8+deb9u2                 amd64        Common UNIX Printing System(tm) - Core library
 ii  libcupsfilters1:amd64         1.11.6-3                       amd64        OpenPrinting CUPS Filters - Shared library
-ii  libcupsimage2:amd64           2.2.1-8+deb9u1                 amd64        Common UNIX Printing System(tm) - Raster image library
+ii  libcupsimage2:amd64           2.2.1-8+deb9u2                 amd64        Common UNIX Printing System(tm) - Raster image library
 ii  libcurl3:amd64                7.52.1-5+deb9u6                amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
 ii  libcurl3-gnutls:amd64         7.52.1-5+deb9u6                amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libdb5.3:amd64                5.3.28-12+deb9u1               amd64        Berkeley v5.3 Database Libraries [runtime]
