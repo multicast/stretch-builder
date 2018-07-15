@@ -7,14 +7,14 @@ ii  adduser                       3.115                          all          ad
 ii  apt                           1.4.8                          amd64        commandline package manager
 ii  apt-transport-https           1.4.8                          amd64        https download transport for APT
 ii  apt-utils                     1.4.8                          amd64        package management related utility programs
-ii  base-files                    9.9+deb9u4                     amd64        Debian base system miscellaneous files
+ii  base-files                    9.9+deb9u5                     amd64        Debian base system miscellaneous files
 ii  base-passwd                   3.5.43                         amd64        Debian base system master password and group files
 ii  bash                          4.4-5                          amd64        GNU Bourne Again SHell
 ii  binutils                      2.28-5                         amd64        GNU assembler, linker and binary utilities
 ii  bsdutils                      1:2.29.2-1+deb9u1              amd64        basic utilities from 4.4BSD-Lite
 ii  build-essential               12.3                           amd64        Informational list of build-essential packages
 ii  bzip2                         1.0.6-8.1                      amd64        high-quality block-sorting file compressor - utilities
-ii  ca-certificates               20161130+nmu1                  all          Common CA certificates
+ii  ca-certificates               20161130+nmu1+deb9u1           all          Common CA certificates
 ii  coreutils                     8.26-3                         amd64        GNU core utilities
 ii  cpp                           4:6.3.0-4                      amd64        GNU C preprocessor (cpp)
 ii  cpp-6                         6.3.0-18+deb9u1                amd64        GNU C preprocessor
@@ -33,8 +33,8 @@ ii  dmsetup                       2:1.02.137-2                   amd64        Li
 ii  docker-ce                     18.03.1~ce-0~debian            amd64        Docker: the open-source application container engine
 ii  docutils-common               0.13.1+dfsg-2                  all          text processing system for reStructuredText - common data
 ii  docutils-doc                  0.13.1+dfsg-2                  all          text processing system for reStructuredText - documentation
-ii  dpkg                          1.18.24                        amd64        Debian package management system
-ii  dpkg-dev                      1.18.24                        all          Debian package development tools
+ii  dpkg                          1.18.25                        amd64        Debian package management system
+ii  dpkg-dev                      1.18.25                        all          Debian package development tools
 ii  dumb-init                     1.2.0-1                        amd64        wrapper script which proxies signals to a child
 ii  e2fslibs:amd64                1.43.4-2                       amd64        ext2/ext3/ext4 file system libraries
 ii  e2fsprogs                     1.43.4-2                       amd64        ext2/ext3/ext4 file system utilities
@@ -53,7 +53,7 @@ ii  g++-6                         6.3.0-18+deb9u1                amd64        GN
 ii  gcc                           4:6.3.0-4                      amd64        GNU C compiler
 ii  gcc-6                         6.3.0-18+deb9u1                amd64        GNU C compiler
 ii  gcc-6-base:amd64              6.3.0-18+deb9u1                amd64        GCC, the GNU Compiler Collection (base package)
-ii  ghostscript                   9.20~dfsg-3.2+deb9u1           amd64        interpreter for the PostScript language and for PDF
+ii  ghostscript                   9.20~dfsg-3.2+deb9u2           amd64        interpreter for the PostScript language and for PDF
 ii  git                           1:2.11.0-3+deb9u3              amd64        fast, scalable, distributed revision control system
 ii  git-man                       1:2.11.0-3+deb9u3              all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                         2.1.18-8~deb9u2                amd64        GNU privacy guard - a free PGP replacement
@@ -108,7 +108,7 @@ ii  libdb5.3:amd64                5.3.28-12+deb9u1               amd64        Be
 ii  libdbus-1-3:amd64             1.10.26-0+deb9u1               amd64        simple interprocess messaging system (library)
 ii  libdebconfclient0:amd64       0.227                          amd64        Debian Configuration Management System (C-implementation library)
 ii  libdevmapper1.02.1:amd64      2:1.02.137-2                   amd64        Linux Kernel Device Mapper userspace library
-ii  libdpkg-perl                  1.18.24                        all          Dpkg perl modules
+ii  libdpkg-perl                  1.18.25                        all          Dpkg perl modules
 ii  libdrm-amdgpu1:amd64          2.4.74-1                       amd64        Userspace interface to amdgpu-specific kernel DRM services -- runtime
 ii  libdrm-intel1:amd64           2.4.74-1                       amd64        Userspace interface to intel-specific kernel DRM services -- runtime
 ii  libdrm-nouveau2:amd64         2.4.74-1                       amd64        Userspace interface to nouveau-specific kernel DRM services -- runtime
@@ -147,8 +147,8 @@ ii  libgnutls30:amd64             3.5.8-5+deb9u3                 amd64        GN
 ii  libgomp1:amd64                6.3.0-18+deb9u1                amd64        GCC OpenMP (GOMP) support library
 ii  libgpg-error0:amd64           1.26-2                         amd64        library for common error values and messages in GnuPG components
 ii  libgraphite2-3:amd64          1.3.10-1                       amd64        Font rendering engine for Complex Scripts -- library
-ii  libgs9:amd64                  9.20~dfsg-3.2+deb9u1           amd64        interpreter for the PostScript language and for PDF - Library
-ii  libgs9-common                 9.20~dfsg-3.2+deb9u1           all          interpreter for the PostScript language and for PDF - common files
+ii  libgs9:amd64                  9.20~dfsg-3.2+deb9u2           amd64        interpreter for the PostScript language and for PDF - Library
+ii  libgs9-common                 9.20~dfsg-3.2+deb9u2           all          interpreter for the PostScript language and for PDF - common files
 ii  libgssapi-krb5-2:amd64        1.15-1+deb9u1                  amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
 ii  libharfbuzz-icu0:amd64        1.4.2-1                        amd64        OpenType text shaping engine ICU backend
 ii  libharfbuzz0b:amd64           1.4.2-1                        amd64        OpenType text shaping engine (shared library)
@@ -190,8 +190,8 @@ ii  libkrb5-3:amd64               1.15-1+deb9u1                  amd64        MI
 ii  libkrb5support0:amd64         1.15-1+deb9u1                  amd64        MIT Kerberos runtime libraries - Support library
 ii  libksba8:amd64                1.3.5-2                        amd64        X.509 and CMS support library
 ii  liblcms2-2:amd64              2.8-4                          amd64        Little CMS 2 color management library
-ii  libldap-2.4-2:amd64           2.4.44+dfsg-5+deb9u1           amd64        OpenLDAP libraries
-ii  libldap-common                2.4.44+dfsg-5+deb9u1           all          OpenLDAP common files for libraries
+ii  libldap-2.4-2:amd64           2.4.44+dfsg-5+deb9u2           amd64        OpenLDAP libraries
+ii  libldap-common                2.4.44+dfsg-5+deb9u2           all          OpenLDAP common files for libraries
 ii  libllvm3.9:amd64              1:3.9.1-9                      amd64        Modular compiler and toolchain technologies, runtime library
 ii  liblocale-gettext-perl        1.07-3+b1                      amd64        module using libc functions for internationalization in Perl
 ii  liblsan0:amd64                6.3.0-18+deb9u1                amd64        LeakSanitizer -- a memory leak detector (runtime)
@@ -270,7 +270,7 @@ ii  libssl1.1:amd64               1.1.0f-3+deb9u2                amd64        Se
 ii  libstdc++-6-dev:amd64         6.3.0-18+deb9u1                amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64              6.3.0-18+deb9u1                amd64        GNU Standard C++ Library v3
 ii  libsynctex1:amd64             2016.20160513.41080.dfsg-2     amd64        TeX Live: SyncTeX parser library
-ii  libsystemd0:amd64             232-25+deb9u3                  amd64        systemd utility library
+ii  libsystemd0:amd64             232-25+deb9u4                  amd64        systemd utility library
 ii  libtasn1-6:amd64              4.10-1.1+deb9u1                amd64        Manage ASN.1 structures (runtime)
 ii  libtcl8.6:amd64               8.6.6+dfsg-1+b1                amd64        Tcl (the Tool Command Language) v8.6 - run-time library files
 ii  libtexlua52:amd64             2016.20160513.41080.dfsg-2     amd64        TeX Live: Lua 5.2, modified for use with LuaTeX
@@ -284,7 +284,7 @@ ii  libtk8.6:amd64                8.6.6-1+b1                     amd64        Tk
 ii  libtsan0:amd64                6.3.0-18+deb9u1                amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
 ii  libtxc-dxtn-s2tc:amd64        1.0+git20151227-2              amd64        Texture compression library for Mesa
 ii  libubsan0:amd64               6.3.0-18+deb9u1                amd64        UBSan -- undefined behaviour sanitizer (runtime)
-ii  libudev1:amd64                232-25+deb9u3                  amd64        libudev shared library
+ii  libudev1:amd64                232-25+deb9u4                  amd64        libudev shared library
 ii  libunistring0:amd64           0.9.6+really0.9.3-0.1          amd64        Unicode string library for C
 ii  liburi-perl                   1.71-1                         all          module to manipulate and access URI strings
 ii  libustr-1.0-1:amd64           1.0.4-6                        amd64        Micro string library: shared library
@@ -339,7 +339,7 @@ ii  libxxf86vm1:amd64             1:1.1.4-1+b2                   amd64        X1
 ii  libyaml-0-2:amd64             0.1.7-2                        amd64        Fast YAML 1.1 parser and emitter library
 ii  libyaml-tiny-perl             1.70-1                         all          Perl module for reading and writing YAML files
 ii  libzzip-0-13:amd64            0.13.62-3.1                    amd64        library providing read access on ZIP-archives - library
-ii  linux-libc-dev:amd64          4.9.88-1+deb9u1                amd64        Linux support headers for userspace development
+ii  linux-libc-dev:amd64          4.9.110-1                      amd64        Linux support headers for userspace development
 ii  lmodern                       2.004.5-3                      all          scalable PostScript and OpenType fonts based on Computer Modern
 ii  localepurge                   0.7.3.4                        all          reclaim disk space by removing unneeded localizations
 ii  locales                       2.24-11+deb9u3                 all          GNU C Library: National Language (locale) data [support]
@@ -359,7 +359,7 @@ ii  net-tools                     1.60+git20161116.90da8a0-1     amd64        NE
 ii  netbase                       5.4                            all          Basic TCP/IP networking system
 ii  openssl                       1.1.0f-3+deb9u2                amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  passwd                        1:4.4-4.1                      amd64        change and administer password and group data
-ii  patch                         2.7.5-1+b2                     amd64        Apply a diff file to an original
+ii  patch                         2.7.5-1+deb9u1                 amd64        Apply a diff file to an original
 ii  perl                          5.24.1-3+deb9u4                amd64        Larry Wall's Practical Extraction and Report Language
 ii  perl-base                     5.24.1-3+deb9u4                amd64        minimal Perl system
 ii  perl-modules-5.24             5.24.1-3+deb9u4                all          Core Perl modules
@@ -410,7 +410,7 @@ ii  runit                         2.1.2-9.2                      amd64        sy
 ii  sed                           4.4-1                          amd64        GNU stream editor for filtering/transforming text
 ii  sensible-utils                0.0.9+deb9u1                   all          Utilities for sensible alternative selection
 ii  sgml-base                     1.29                           all          SGML infrastructure and SGML catalog file support
-ii  shared-mime-info              1.8-1                          amd64        FreeDesktop.org shared MIME database and spec
+ii  shared-mime-info              1.8-1+deb9u1                   amd64        FreeDesktop.org shared MIME database and spec
 ii  sphinx-common                 1.4.9-2                        all          documentation generator for Python projects - common data
 ii  sudo                          1.8.19p1-2.1                   amd64        Provide limited super user privileges to specific users
 ii  sysvinit-utils                2.88dsf-59.9                   amd64        System-V-like utilities
