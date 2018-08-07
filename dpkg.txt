@@ -339,7 +339,7 @@ ii  libxxf86vm1:amd64             1:1.1.4-1+b2                   amd64        X1
 ii  libyaml-0-2:amd64             0.1.7-2                        amd64        Fast YAML 1.1 parser and emitter library
 ii  libyaml-tiny-perl             1.70-1                         all          Perl module for reading and writing YAML files
 ii  libzzip-0-13:amd64            0.13.62-3.1                    amd64        library providing read access on ZIP-archives - library
-ii  linux-libc-dev:amd64          4.9.110-1                      amd64        Linux support headers for userspace development
+ii  linux-libc-dev:amd64          4.9.110-3+deb9u1               amd64        Linux support headers for userspace development
 ii  lmodern                       2.004.5-3                      all          scalable PostScript and OpenType fonts based on Computer Modern
 ii  localepurge                   0.7.3.4                        all          reclaim disk space by removing unneeded localizations
 ii  locales                       2.24-11+deb9u3                 all          GNU C Library: National Language (locale) data [support]
