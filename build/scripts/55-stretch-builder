@@ -16,6 +16,7 @@ packages="${packages} curl"
 packages="${packages} gnupg"
 packages="${packages} jq"
 packages="${packages} lsb-release"
+packages="${packages} openssh-client"
 packages="${packages} sudo"
 packages="${packages} wget"
 
