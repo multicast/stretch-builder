@@ -40,6 +40,7 @@ apt-get install -y \
  python-pip \
  python-recommonmark \
  python-sphinx \
+ texlive-fonts-extra \
  texlive-fonts-recommended \
  texlive-generic-extra \
  texlive-lang-english \
