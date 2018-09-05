@@ -41,12 +41,42 @@ ii  e2fsprogs                     1.43.4-2                       amd64        ex
 ii  etckeeper                     1.18.5-1                       all          store /etc in git, mercurial, bzr or darcs
 ii  fakeroot                      1.21-3.1                       amd64        tool for simulating superuser privileges
 ii  findutils                     4.6.0+git+20161106-2           amd64        utilities for finding files--find, xargs
+ii  fontconfig                    2.11.0-6.7+b1                  amd64        generic font configuration library - support binaries
 ii  fontconfig-config             2.11.0-6.7                     all          generic font configuration library - configuration
+ii  fonts-cabin                   1.5-2                          all          humanist sans serif font
+ii  fonts-comfortaa               2.003-1                        all          stylish, modern true type font
+ii  fonts-croscore                20161116-1                     all          width-compatible fonts for improved on-screen readability
+ii  fonts-crosextra-caladea       20130214-1                     all          Sans-serif font metric-compatible with Cambria font
+ii  fonts-crosextra-carlito       20130920-1                     all          Sans-serif font metric-compatible with Calibri font
 ii  fonts-dejavu-core             2.37-1                         all          Vera font family derivate with additional characters
+ii  fonts-dejavu-extra            2.37-1                         all          Vera font family derivate with additional characters (extra variants)
 ii  fonts-droid-fallback          1:6.0.1r16-1.1                 all          handheld device font with extensive style and language support (fallback)
+ii  fonts-ebgaramond              0.016-1                        all          EB Garamond OpenType fonts
+ii  fonts-ebgaramond-extra        0.016-1                        all          EB Garamond Initials and TrueType fonts
+ii  fonts-font-awesome            4.7.0~dfsg-1                   all          iconic font designed for use with Twitter Bootstrap
+ii  fonts-freefont-otf            20120503-6                     all          Freefont Serif, Sans and Mono OpenType fonts
+ii  fonts-freefont-ttf            20120503-6                     all          Freefont Serif, Sans and Mono Truetype fonts
+ii  fonts-gfs-artemisia           1.1-5                          all          greek font (Times Greek-like)
+ii  fonts-gfs-complutum           1.1-6                          all          ancient Greek font revival from the University of Alcalá, Spain
+ii  fonts-gfs-didot               1.1-6                          all          greek font family (Didot revival)
+ii  fonts-gfs-neohellenic         1.1-6                          all          modern Greek font family with matching Latin
+ii  fonts-gfs-olga                1.1-5                          all          ancient Greek oblique font revival (companion to GFS Didot)
+ii  fonts-gfs-solomos             1.1-5                          all          ancient Greek oblique font
+ii  fonts-junicode                0.7.8-2                        all          Unicode font for medievalists (Latin, IPA and Runic)
 ii  fonts-lato                    2.0-1                          all          sans-serif typeface family font
+ii  fonts-linuxlibertine          5.3.0-2                        all          Linux Libertine family of fonts
 ii  fonts-lmodern                 2.004.5-3                      all          OpenType fonts based on Computer Modern
+ii  fonts-lobster                 2.0-2                          all          bold condensed script with many ligatures and alternates
+ii  fonts-lobstertwo              2.0-2                          all          updated and improved family version of the Lobster font
+ii  fonts-noto-hinted             20161116-1                     all          "No Tofu" font families with large Unicode coverage (hinted)
 ii  fonts-noto-mono               20161116-1                     all          "No Tofu" monospaced font family with large Unicode coverage
+ii  fonts-oflb-asana-math         000.907-6                      all          extended smart Unicode Math font
+ii  fonts-roboto-hinted           2:0~20160106-2                 all          Google's signature family of fonts (hinted)
+ii  fonts-sil-gentium             20081126:1.03-1                all          extended Unicode Latin font ("a typeface for the nations")
+ii  fonts-sil-gentium-basic       1.1-7                          all          smart Unicode font families (Basic and Book Basic) based on Gentium
+ii  fonts-sil-gentiumplus         5.000-1                        all          extended smart font family for Latin, Greek and Cyrillic
+ii  fonts-sil-gentiumplus-compact 5.000-2                        all          Smart Unicode fonts for Latin, Greek and Cyrillic (tight spacing version)
+ii  fonts-stix                    1.1.1-4                        all          Scientific and Technical Information eXchange fonts
 ii  fonts-texgyre                 20160520-1                     all          OpenType fonts based on URW Fonts
 ii  g++                           4:6.3.0-4                      amd64        GNU C++ compiler
 ii  g++-6                         6.3.0-18+deb9u1                amd64        GNU C++ compiler
@@ -454,6 +484,8 @@ ii  texlive-base                  2016.20170123-5                all          Te
 ii  texlive-binaries              2016.20160513.41080.dfsg-2     amd64        Binaries for TeX Live
 ii  texlive-extra-utils           2016.20170123-5                all          TeX Live: TeX auxiliary programs
 ii  texlive-font-utils            2016.20170123-5                all          TeX Live: Graphics and font utilities
+ii  texlive-fonts-extra           2016.20170123-5                all          TeX Live: Additional fonts
+ii  texlive-fonts-extra-doc       2016.20170123-5                all          TeX Live: Documentation files for texlive-fonts-extra
 ii  texlive-fonts-recommended     2016.20170123-5                all          TeX Live: Recommended fonts
 ii  texlive-fonts-recommended-doc 2016.20170123-5                all          TeX Live: Documentation files for texlive-fonts-recommended
 ii  texlive-generic-extra         2016.20170123-5                all          TeX Live: Generic additional packages
@@ -472,6 +504,9 @@ ii  texlive-pstricks-doc          2016.20170123-5                all          Te
 ii  tipa                          2:1.3-20                       all          system for processing phonetic symbols in LaTeX
 ii  tk                            8.6.0+9                        amd64        Toolkit for Tcl and X11 (default version) - windowing shell
 ii  tk8.6                         8.6.6-1+b1                     amd64        Tk toolkit for Tcl and X11 v8.6 - windowing shell
+ii  ttf-adf-accanthis             0.20090423-2                   all          Accanthis font of the Arkandis Digital Foundry
+ii  ttf-adf-gillius               0.20090423-2                   all          Gillius font of the Arkandis Digital Foundry
+ii  ttf-adf-universalis           0.20090423-2                   all          Universalis font of the Arkandis Digital Foundry
 ii  tzdata                        2018e-0+deb9u1                 all          time zone and daylight-saving time data
 ii  ucf                           3.0036                         all          Update Configuration File(s): preserve user changes to config files
 ii  unzip                         6.0-21                         amd64        De-archiver for .zip files
