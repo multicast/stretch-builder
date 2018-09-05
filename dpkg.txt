@@ -54,6 +54,7 @@ ii  gcc                           4:6.3.0-4                      amd64        GN
 ii  gcc-6                         6.3.0-18+deb9u1                amd64        GNU C compiler
 ii  gcc-6-base:amd64              6.3.0-18+deb9u1                amd64        GCC, the GNU Compiler Collection (base package)
 ii  ghostscript                   9.20~dfsg-3.2+deb9u2           amd64        interpreter for the PostScript language and for PDF
+ii  gir1.2-glib-2.0:amd64         1.50.0-1+b1                    amd64        Introspection data for GLib, GObject, Gio and GModule
 ii  git                           1:2.11.0-3+deb9u3              amd64        fast, scalable, distributed revision control system
 ii  git-man                       1:2.11.0-3+deb9u3              all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                         2.1.18-8~deb9u2                amd64        GNU privacy guard - a free PGP replacement
@@ -106,6 +107,7 @@ ii  libcurl3:amd64                7.52.1-5+deb9u6                amd64        ea
 ii  libcurl3-gnutls:amd64         7.52.1-5+deb9u6                amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
 ii  libdb5.3:amd64                5.3.28-12+deb9u1               amd64        Berkeley v5.3 Database Libraries [runtime]
 ii  libdbus-1-3:amd64             1.10.26-0+deb9u1               amd64        simple interprocess messaging system (library)
+ii  libdbus-glib-1-2:amd64        0.108-2                        amd64        simple interprocess messaging system (GLib-based shared library)
 ii  libdebconfclient0:amd64       0.227                          amd64        Debian Configuration Management System (C-implementation library)
 ii  libdevmapper1.02.1:amd64      2:1.02.137-2                   amd64        Linux Kernel Device Mapper userspace library
 ii  libdpkg-perl                  1.18.25                        all          Dpkg perl modules
@@ -119,6 +121,7 @@ ii  libelf1:amd64                 0.168-1                        amd64        li
 ii  libencode-locale-perl         1.05-1                         all          utility to determine the locale encoding
 ii  liberror-perl                 0.17024-1                      all          Perl module for error/exception handling in an OO-ish way
 ii  libexpat1:amd64               2.2.0-2+deb9u1                 amd64        XML parsing C library - runtime library
+ii  libexpat1-dev:amd64           2.2.0-2+deb9u1                 amd64        XML parsing C library - development kit
 ii  libfakeroot:amd64             1.21-3.1                       amd64        tool for simulating superuser privileges - shared libraries
 ii  libfdisk1:amd64               2.29.2-1+deb9u1                amd64        fdisk partitioning library
 ii  libffi6:amd64                 3.2.1-6                        amd64        Foreign Function Interface library runtime
@@ -137,6 +140,7 @@ ii  libgcc-6-dev:amd64            6.3.0-18+deb9u1                amd64        GC
 ii  libgcc1:amd64                 1:6.3.0-18+deb9u1              amd64        GCC support library
 ii  libgcrypt20:amd64             1.7.6-2+deb9u3                 amd64        LGPL Crypto library - runtime library
 ii  libgdbm3:amd64                1.8.3-14                       amd64        GNU dbm database routines (runtime version)
+ii  libgirepository-1.0-1:amd64   1.50.0-1+b1                    amd64        Library for handling GObject introspection data (runtime library)
 ii  libgl1-mesa-dri:amd64         13.0.6-1+b2                    amd64        free implementation of the OpenGL API -- DRI modules
 ii  libgl1-mesa-glx:amd64         13.0.6-1+b2                    amd64        free implementation of the OpenGL API -- GLX runtime
 ii  libglapi-mesa:amd64           13.0.6-1+b2                    amd64        free implementation of the GL API -- shared library
@@ -241,7 +245,11 @@ ii  libpotrace0                   1.13-3                         amd64        li
 ii  libprocps6:amd64              2:3.3.12-3+deb9u1              amd64        library for accessing process information from /proc
 ii  libpsl5:amd64                 0.17.0-3                       amd64        Library for Public Suffix List (shared libraries)
 ii  libptexenc1:amd64             2016.20160513.41080.dfsg-2     amd64        TeX Live: pTeX encoding library
+ii  libpython-all-dev:amd64       2.7.13-2                       amd64        package depending on all supported Python development packages
+ii  libpython-dev:amd64           2.7.13-2                       amd64        header files and a static library for Python (default)
 ii  libpython-stdlib:amd64        2.7.13-2                       amd64        interactive high-level object-oriented language (default python version)
+ii  libpython2.7:amd64            2.7.13-2+deb9u2                amd64        Shared Python runtime library (version 2.7)
+ii  libpython2.7-dev:amd64        2.7.13-2+deb9u2                amd64        Header files and a static library for Python (v2.7)
 ii  libpython2.7-minimal:amd64    2.7.13-2+deb9u2                amd64        Minimal subset of the Python language (version 2.7)
 ii  libpython2.7-stdlib:amd64     2.7.13-2+deb9u2                amd64        Interactive high-level object-oriented language (standard library, version 2.7)
 ii  libpython3-stdlib:amd64       3.5.3-1                        amd64        interactive high-level object-oriented language (default python3 version)
@@ -374,24 +382,45 @@ ii  ps2eps                        1.68+binaryfree-2              amd64        co
 ii  psmisc                        22.21-2.1+b2                   amd64        utilities that use the proc file system
 ii  python                        2.7.13-2                       amd64        interactive high-level object-oriented language (default version)
 ii  python-alabaster              0.7.8-1                        all          Configurable sidebar-enabled Sphinx theme (Python 2)
+ii  python-all                    2.7.13-2                       amd64        package depending on all supported Python runtime versions
+ii  python-all-dev                2.7.13-2                       amd64        package depending on all supported Python development packages
 ii  python-babel                  2.3.4+dfsg.1-2                 all          tools for internationalizing Python applications - Python 2.x
 ii  python-babel-localedata       2.3.4+dfsg.1-2                 all          tools for internationalizing Python applications - locale data files
+ii  python-cffi-backend           1.9.1-2                        amd64        Foreign Function Interface for Python calling C code - backend
 ii  python-chardet                2.3.0-2                        all          universal character encoding detector for Python2
 ii  python-commonmark-bkrs        0.5.4+ds-1                     all          Python parser for the CommonMark Markdown spec -- Python
+ii  python-crypto                 2.6.1-7                        amd64        cryptographic algorithms and protocols for Python
+ii  python-cryptography           1.7.1-3                        amd64        Python library exposing cryptographic recipes and primitives (Python 2)
+ii  python-dbus                   1.2.4-1+b1                     amd64        simple interprocess messaging system (Python interface)
+ii  python-dev                    2.7.13-2                       amd64        header files and a static library for Python (default)
 ii  python-docutils               0.13.1+dfsg-2                  all          text processing system for reStructuredText (implemented in Python 2)
+ii  python-enum34                 1.1.6-1                        all          backport of Python 3.4's enum package
+ii  python-gi                     3.22.0-2                       amd64        Python 2.x bindings for gobject-introspection libraries
+ii  python-idna                   2.2-1                          all          Python IDNA2008 (RFC 5891) handling (Python 2)
 ii  python-imagesize              0.7.1-1                        all          Python 2 module for getting image size from png/jpeg/jpeg2000/gif file
+ii  python-ipaddress              1.0.17-1                       all          Backport of Python 3 ipaddress module (Python 2)
 ii  python-jinja2                 2.8-1                          all          small but fast and easy to use stand-alone template engine
+ii  python-keyring                10.1-1                         all          store and access your passwords safely
+ii  python-keyrings.alt           1.3-1                          all          alternate backend implementations for python-keyring
 ii  python-markupsafe             0.23-3                         amd64        HTML/XHTML/XML string library for Python
 ii  python-minimal                2.7.13-2                       amd64        minimal subset of the Python language (default version)
 ii  python-pil:amd64              4.0.0-4                        amd64        Python Imaging Library (Pillow fork)
+ii  python-pip                    9.0.1-2                        all          Python package installer
+ii  python-pip-whl                9.0.1-2                        all          Python package installer
 ii  python-pkg-resources          33.1.1-1                       all          Package Discovery and Resource Access using pkg_resources
+ii  python-pyasn1                 0.1.9-2                        all          ASN.1 library for Python (Python 2 module)
 ii  python-pygments               2.2.0+dfsg-1                   all          syntax highlighting package written in Python
 ii  python-recommonmark           0.4.0+ds-2                     all          CommonMark utility for Docutils and Sphinx projects -- Python
 ii  python-roman                  2.0.0-2                        all          module for generating/analyzing Roman numerals for Python 2
+ii  python-secretstorage          2.3.1-2                        all          Python module for storing secrets - Python 2.x version
+ii  python-setuptools             33.1.1-1                       all          Python Distutils Enhancements
 ii  python-six                    1.10.0-3                       all          Python 2 and 3 compatibility library (Python 2 interface)
 ii  python-sphinx                 1.4.9-2                        all          documentation generator for Python projects (implemented in Python 2)
 ii  python-tz                     2016.7-0.3                     all          Python version of the Olson timezone database
+ii  python-wheel                  0.29.0-2                       all          built-package format for Python
+ii  python-xdg                    0.25-4                         all          Python 2 library to access freedesktop.org standards
 ii  python2.7                     2.7.13-2+deb9u2                amd64        Interactive high-level object-oriented language (version 2.7)
+ii  python2.7-dev                 2.7.13-2+deb9u2                amd64        Header files and a static library for Python (v2.7)
 ii  python2.7-minimal             2.7.13-2+deb9u2                amd64        Minimal subset of the Python language (version 2.7)
 ii  python3                       3.5.3-1                        amd64        interactive high-level object-oriented language (default python3 version)
 ii  python3-minimal               3.5.3-1                        amd64        minimal subset of the Python language (default python3 version)
