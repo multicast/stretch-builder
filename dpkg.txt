@@ -189,7 +189,7 @@ ii  libkpathsea6:amd64            2016.20160513.41080.dfsg-2     amd64        Te
 ii  libkrb5-3:amd64               1.15-1+deb9u1                  amd64        MIT Kerberos runtime libraries
 ii  libkrb5support0:amd64         1.15-1+deb9u1                  amd64        MIT Kerberos runtime libraries - Support library
 ii  libksba8:amd64                1.3.5-2                        amd64        X.509 and CMS support library
-ii  liblcms2-2:amd64              2.8-4                          amd64        Little CMS 2 color management library
+ii  liblcms2-2:amd64              2.8-4+deb9u1                   amd64        Little CMS 2 color management library
 ii  libldap-2.4-2:amd64           2.4.44+dfsg-5+deb9u2           amd64        OpenLDAP libraries
 ii  libldap-common                2.4.44+dfsg-5+deb9u2           all          OpenLDAP common files for libraries
 ii  libllvm3.9:amd64              1:3.9.1-9                      amd64        Modular compiler and toolchain technologies, runtime library
