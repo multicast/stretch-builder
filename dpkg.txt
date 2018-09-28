@@ -278,10 +278,10 @@ ii  libptexenc1:amd64             2016.20160513.41080.dfsg-2+deb9u1 amd64       
 ii  libpython-all-dev:amd64       2.7.13-2                          amd64        package depending on all supported Python development packages
 ii  libpython-dev:amd64           2.7.13-2                          amd64        header files and a static library for Python (default)
 ii  libpython-stdlib:amd64        2.7.13-2                          amd64        interactive high-level object-oriented language (default python version)
-ii  libpython2.7:amd64            2.7.13-2+deb9u2                   amd64        Shared Python runtime library (version 2.7)
-ii  libpython2.7-dev:amd64        2.7.13-2+deb9u2                   amd64        Header files and a static library for Python (v2.7)
-ii  libpython2.7-minimal:amd64    2.7.13-2+deb9u2                   amd64        Minimal subset of the Python language (version 2.7)
-ii  libpython2.7-stdlib:amd64     2.7.13-2+deb9u2                   amd64        Interactive high-level object-oriented language (standard library, version 2.7)
+ii  libpython2.7:amd64            2.7.13-2+deb9u3                   amd64        Shared Python runtime library (version 2.7)
+ii  libpython2.7-dev:amd64        2.7.13-2+deb9u3                   amd64        Header files and a static library for Python (v2.7)
+ii  libpython2.7-minimal:amd64    2.7.13-2+deb9u3                   amd64        Minimal subset of the Python language (version 2.7)
+ii  libpython2.7-stdlib:amd64     2.7.13-2+deb9u3                   amd64        Interactive high-level object-oriented language (standard library, version 2.7)
 ii  libpython3-stdlib:amd64       3.5.3-1                           amd64        interactive high-level object-oriented language (default python3 version)
 ii  libpython3.5-minimal:amd64    3.5.3-1                           amd64        Minimal subset of the Python language (version 3.5)
 ii  libpython3.5-stdlib:amd64     3.5.3-1                           amd64        Interactive high-level object-oriented language (standard library, version 3.5)
@@ -449,9 +449,9 @@ ii  python-sphinx                 1.4.9-2                           all         
 ii  python-tz                     2016.7-0.3                        all          Python version of the Olson timezone database
 ii  python-wheel                  0.29.0-2                          all          built-package format for Python
 ii  python-xdg                    0.25-4                            all          Python 2 library to access freedesktop.org standards
-ii  python2.7                     2.7.13-2+deb9u2                   amd64        Interactive high-level object-oriented language (version 2.7)
-ii  python2.7-dev                 2.7.13-2+deb9u2                   amd64        Header files and a static library for Python (v2.7)
-ii  python2.7-minimal             2.7.13-2+deb9u2                   amd64        Minimal subset of the Python language (version 2.7)
+ii  python2.7                     2.7.13-2+deb9u3                   amd64        Interactive high-level object-oriented language (version 2.7)
+ii  python2.7-dev                 2.7.13-2+deb9u3                   amd64        Header files and a static library for Python (v2.7)
+ii  python2.7-minimal             2.7.13-2+deb9u3                   amd64        Minimal subset of the Python language (version 2.7)
 ii  python3                       3.5.3-1                           amd64        interactive high-level object-oriented language (default python3 version)
 ii  python3-minimal               3.5.3-1                           amd64        minimal subset of the Python language (default python3 version)
 ii  python3.5                     3.5.3-1                           amd64        Interactive high-level object-oriented language (version 3.5)
