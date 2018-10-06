@@ -85,8 +85,8 @@ ii  gcc-6                         6.3.0-18+deb9u1                   amd64       
 ii  gcc-6-base:amd64              6.3.0-18+deb9u1                   amd64        GCC, the GNU Compiler Collection (base package)
 ii  ghostscript                   9.20~dfsg-3.2+deb9u5              amd64        interpreter for the PostScript language and for PDF
 ii  gir1.2-glib-2.0:amd64         1.50.0-1+b1                       amd64        Introspection data for GLib, GObject, Gio and GModule
-ii  git                           1:2.11.0-3+deb9u3                 amd64        fast, scalable, distributed revision control system
-ii  git-man                       1:2.11.0-3+deb9u3                 all          fast, scalable, distributed revision control system (manual pages)
+ii  git                           1:2.11.0-3+deb9u4                 amd64        fast, scalable, distributed revision control system
+ii  git-man                       1:2.11.0-3+deb9u4                 all          fast, scalable, distributed revision control system (manual pages)
 ii  gnupg                         2.1.18-8~deb9u2                   amd64        GNU privacy guard - a free PGP replacement
 ii  gnupg-agent                   2.1.18-8~deb9u2                   amd64        GNU privacy guard - cryptographic agent
 ii  gpgv                          2.1.18-8~deb9u2                   amd64        GNU privacy guard - signature verification tool
