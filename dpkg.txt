@@ -288,7 +288,7 @@ ii  libpython3.5-stdlib:amd64     3.5.3-1+deb9u1                    amd64       
 ii  libquadmath0:amd64            6.3.0-18+deb9u1                   amd64        GCC Quad-Precision Math Library
 ii  libreadline7:amd64            7.0-3                             amd64        GNU readline and history libraries, run-time libraries
 ii  librtmp1:amd64                2.4+20151223.gitfa8646d.1-1+b1    amd64        toolkit for RTMP streams (shared library)
-ii  libruby2.3:amd64              2.3.3-1+deb9u3                    amd64        Libraries necessary to run Ruby 2.3
+ii  libruby2.3:amd64              2.3.3-1+deb9u4                    amd64        Libraries necessary to run Ruby 2.3
 ii  libsasl2-2:amd64              2.1.27~101-g0780600+dfsg-3        amd64        Cyrus SASL - authentication abstraction library
 ii  libsasl2-modules-db:amd64     2.1.27~101-g0780600+dfsg-3        amd64        Cyrus SASL - pluggable authentication modules (DB)
 ii  libseccomp2:amd64             2.3.1-2.1                         amd64        high level interface to Linux seccomp filter
@@ -464,7 +464,7 @@ ii  ruby-minitest                 5.9.0-1                           all         
 ii  ruby-net-telnet               0.1.1-2                           all          telnet client library
 ii  ruby-power-assert             0.3.0-1                           all          library showing values of variables and method calls in an expression
 ii  ruby-test-unit                3.1.7-2                           all          unit testing framework for Ruby
-ii  ruby2.3                       2.3.3-1+deb9u3                    amd64        Interpreter of object-oriented scripting language Ruby
+ii  ruby2.3                       2.3.3-1+deb9u4                    amd64        Interpreter of object-oriented scripting language Ruby
 ii  rubygems-integration          1.11                              all          integration of Debian Ruby packages with Rubygems
 ii  runit                         2.1.2-9.2                         amd64        system-wide service supervision
 ii  sed                           4.4-1                             amd64        GNU stream editor for filtering/transforming text
