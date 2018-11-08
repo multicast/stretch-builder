@@ -15,6 +15,7 @@ ii  bsdutils                      1:2.29.2-1+deb9u1                 amd64       
 ii  build-essential               12.3                              amd64        Informational list of build-essential packages
 ii  bzip2                         1.0.6-8.1                         amd64        high-quality block-sorting file compressor - utilities
 ii  ca-certificates               20161130+nmu1+deb9u1              all          Common CA certificates
+ii  containerd.io                 1.2.0~rc.2-1                      amd64        An open and reliable container runtime
 ii  coreutils                     8.26-3                            amd64        GNU core utilities
 ii  cpp                           4:6.3.0-4                         amd64        GNU C preprocessor (cpp)
 ii  cpp-6                         6.3.0-18+deb9u1                   amd64        GNU C preprocessor
@@ -29,8 +30,8 @@ ii  dh-python                     2.20170125                        all         
 ii  di                            4.34-2+b1                         amd64        advanced df like disk information utility
 ii  diffutils                     1:3.5-3                           amd64        File comparison utilities
 ii  distro-info-data              0.36                              all          information about the distributions' releases (data files)
-ii  dmsetup                       2:1.02.137-2                      amd64        Linux Kernel Device Mapper userspace library
-ii  docker-ce                     18.06.1~ce~3-0~debian             amd64        Docker: the open-source application container engine
+ii  docker-ce                     5:18.09.0~3-0~debian-stretch      amd64        Docker: the open-source application container engine
+ii  docker-ce-cli                 5:18.09.0~3-0~debian-stretch      amd64        Docker CLI: the open-source application container engine
 ii  docutils-common               0.13.1+dfsg-2                     all          text processing system for reStructuredText - common data
 ii  docutils-doc                  0.13.1+dfsg-2                     all          text processing system for reStructuredText - documentation
 ii  dpkg                          1.18.25                           amd64        Debian package management system
@@ -139,7 +140,6 @@ ii  libdb5.3:amd64                5.3.28-12+deb9u1                  amd64       
 ii  libdbus-1-3:amd64             1.10.26-0+deb9u1                  amd64        simple interprocess messaging system (library)
 ii  libdbus-glib-1-2:amd64        0.108-2                           amd64        simple interprocess messaging system (GLib-based shared library)
 ii  libdebconfclient0:amd64       0.227                             amd64        Debian Configuration Management System (C-implementation library)
-ii  libdevmapper1.02.1:amd64      2:1.02.137-2                      amd64        Linux Kernel Device Mapper userspace library
 ii  libdpkg-perl                  1.18.25                           all          Dpkg perl modules
 ii  libdrm-amdgpu1:amd64          2.4.74-1                          amd64        Userspace interface to amdgpu-specific kernel DRM services -- runtime
 ii  libdrm-intel1:amd64           2.4.74-1                          amd64        Userspace interface to intel-specific kernel DRM services -- runtime
