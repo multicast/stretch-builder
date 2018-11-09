@@ -15,7 +15,7 @@ ii  bsdutils                      1:2.29.2-1+deb9u1                 amd64       
 ii  build-essential               12.3                              amd64        Informational list of build-essential packages
 ii  bzip2                         1.0.6-8.1                         amd64        high-quality block-sorting file compressor - utilities
 ii  ca-certificates               20161130+nmu1+deb9u1              all          Common CA certificates
-ii  containerd.io                 1.2.0~rc.2-1                      amd64        An open and reliable container runtime
+ii  containerd.io                 1.2.0-1                           amd64        An open and reliable container runtime
 ii  coreutils                     8.26-3                            amd64        GNU core utilities
 ii  cpp                           4:6.3.0-4                         amd64        GNU C preprocessor (cpp)
 ii  cpp-6                         6.3.0-18+deb9u1                   amd64        GNU C preprocessor
