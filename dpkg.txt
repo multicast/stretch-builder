@@ -304,7 +304,7 @@ ii  libsqlite3-0:amd64            3.16.2-5+deb9u1                   amd64       
 ii  libss2:amd64                  1.43.4-2                          amd64        command-line interface parsing library
 ii  libssh2-1:amd64               1.7.0-1                           amd64        SSH2 client-side library
 ii  libssl1.0.2:amd64             1.0.2l-2+deb9u3                   amd64        Secure Sockets Layer toolkit - shared libraries
-ii  libssl1.1:amd64               1.1.0f-3+deb9u2                   amd64        Secure Sockets Layer toolkit - shared libraries
+ii  libssl1.1:amd64               1.1.0j-1~deb9u1                   amd64        Secure Sockets Layer toolkit - shared libraries
 ii  libstdc++-6-dev:amd64         6.3.0-18+deb9u1                   amd64        GNU Standard C++ Library v3 (development files)
 ii  libstdc++6:amd64              6.3.0-18+deb9u1                   amd64        GNU Standard C++ Library v3
 ii  libsynctex1:amd64             2016.20160513.41080.dfsg-2+deb9u1 amd64        TeX Live: SyncTeX parser library
@@ -315,7 +315,7 @@ ii  libtexlua52:amd64             2016.20160513.41080.dfsg-2+deb9u1 amd64       
 ii  libtexluajit2:amd64           2016.20160513.41080.dfsg-2+deb9u1 amd64        TeX Live: LuaJIT, modified for use with LuaJITTeX
 ii  libtext-iconv-perl            1.7-5+b4                          amd64        converts between character sets in Perl
 ii  libtie-ixhash-perl            1.23-2                            all          Perl module to order associative arrays
-ii  libtiff5:amd64                4.0.8-2+deb9u2                    amd64        Tag Image File Format (TIFF) library
+ii  libtiff5:amd64                4.0.8-2+deb9u4                    amd64        Tag Image File Format (TIFF) library
 ii  libtimedate-perl              2.3000-2                          all          collection of modules to manipulate date/time information
 ii  libtinfo5:amd64               6.0+20161126-1+deb9u2             amd64        shared low-level terminfo library for terminal handling
 ii  libtk8.6:amd64                8.6.6-1+b1                        amd64        Tk toolkit for Tcl and X11 v8.6 - run-time files
@@ -396,7 +396,7 @@ ii  ncurses-bin                   6.0+20161126-1+deb9u2             amd64       
 ii  net-tools                     1.60+git20161116.90da8a0-1        amd64        NET-3 networking toolkit
 ii  netbase                       5.4                               all          Basic TCP/IP networking system
 ii  openssh-client                1:7.4p1-10+deb9u4                 amd64        secure shell (SSH) client, for secure access to remote machines
-ii  openssl                       1.1.0f-3+deb9u2                   amd64        Secure Sockets Layer toolkit - cryptographic utility
+ii  openssl                       1.1.0j-1~deb9u1                   amd64        Secure Sockets Layer toolkit - cryptographic utility
 ii  passwd                        1:4.4-4.1                         amd64        change and administer password and group data
 ii  patch                         2.7.5-1+deb9u1                    amd64        Apply a diff file to an original
 ii  perl                          5.24.1-3+deb9u5                   amd64        Larry Wall's Practical Extraction and Report Language
